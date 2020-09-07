@@ -6,7 +6,7 @@ public class Calculator{
         double firstnum, secondnum, answer; // variable declaration
         String operater;// variable declaration
 
-        final Scanner read = new Scanner(System.in);
+     Scanner read = new Scanner(System.in);
      System.out.println("Welcome to the Calculater Please enter your Arithamatic operation. \n");
      System.out.println("Addition: +"+"\n"+"Sbstraction: -"+"\n"+"Multiplication: *"+"\n"+"Division: /"+"\n");
      operater=read.nextLine();
