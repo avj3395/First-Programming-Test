@@ -11,24 +11,24 @@ public class Calculator{
      System.out.println("Addition: +"+"\n"+"Sbstraction: -"+"\n"+"Multiplication: *"+"\n"+"Division: /"+"\n");
      operater=read.nextLine();
      System.out.println("Enter two numbers ");
-     firstnum=read.nextDouble();
-     secondnum=read.nextDouble();
+     firstnum=read.nextDouble(); //Assign data to variables
+     secondnum=read.nextDouble();//Assign data to variables
 
      switch(operater){
 
-        case "+":
+        case "+": //Addition operation
             answer = firstnum+secondnum;
             System.out.println(firstnum+" + "+secondnum+" = "+answer);
             break;
-        case "-":
+        case "-"://substraction operation
             answer = firstnum-secondnum;
             System.out.println(firstnum+" - "+secondnum+" = "+answer);
             break;    
-        case "*":
+        case "*"://multiplication operatiopn
             answer = firstnum*secondnum;
             System.out.println(firstnum+" * "+secondnum+" = "+answer);
             break;
-        case "/":
+        case "/"://division operation
             answer = firstnum/secondnum;
             System.out.println(firstnum+" / "+secondnum+" = "+answer);
             break;
