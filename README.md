@@ -1,5 +1,5 @@
 # First-Programming-Test
 
-SIMPLE Calculator program written in JAVA language.
+All programs are  written in JAVA programming language.
 IDE used : Microsoft visual studio code.
 Version control: Git.
